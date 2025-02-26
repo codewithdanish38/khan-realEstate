@@ -8,7 +8,7 @@ const About = () => {
   return (
     
     <>
-    {location.pathname === "/about" && <Header />}
+    {location.pathname === "/about"}
     <div className="flex flex-col md:flex-row items-center justify-center px-10 py-40 bg-white"
       style={{
         backgroundImage:

@@ -1,5 +1,5 @@
 import 'react'
-import Header from '../Component/Header'
+
 import Banner from '../Component/Banner'
 import About from '../Component/About'
 // import Contact from '../Component/Contact'
@@ -8,7 +8,7 @@ import Project from '../Component/Project'
 const Home = () => {
   return (
     <div>
-      <Header/>
+     
       <Banner/>
       <About/>
       {/* <Contact/> */}

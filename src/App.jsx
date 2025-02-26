@@ -11,6 +11,7 @@ import Project from "./Component/Project";
 function App() {
   return (
     <Router>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/signup" element={<SignUp />} />
