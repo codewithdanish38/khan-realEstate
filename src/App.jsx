@@ -11,11 +11,9 @@ import Project from "./Component/Project";
 function App() {
   return (
     <Router>
-<<<<<<< HEAD
+
       <Header/>
-=======
-        <Header /> 
->>>>>>> c0a5f60db0678c960238835b2ed98eb99add5bfa
+
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/signup" element={<SignUp />} />
